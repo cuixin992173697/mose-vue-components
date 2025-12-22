@@ -1,0 +1,27 @@
+{
+  "name": "mose-vue-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/my-ui.umd.js",
+  "module": "dist/my-ui.es.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "vite build && vue-tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "element-plus": "^2.13.0",
+    "vue": "^3.5.26"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^6.0.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.0",
+    "vue-tsc": "^3.2.1"
+  }
+}
