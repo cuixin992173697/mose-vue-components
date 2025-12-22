@@ -8,7 +8,7 @@
 
 <script setup lang="ts">
 defineOptions({
-  name: 'MyButton'
+  name: 'XButton'
 })
 </script>
 

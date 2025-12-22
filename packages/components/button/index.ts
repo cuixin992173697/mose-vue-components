@@ -1,4 +1,3 @@
-import type { App } from 'vue'
-import Button from './src/index.vue'
+import XButton from './src/index.vue'
 
-export default Button
+export default XButton

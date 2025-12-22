@@ -1,3 +1,3 @@
-import MyButton from './button'
+import XButton from './button'
 
-export { MyButton }
+export { XButton }
