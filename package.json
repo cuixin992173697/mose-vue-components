@@ -2,10 +2,12 @@
   "name": "mose-vue-components",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/my-ui.umd.js",
-  "module": "dist/my-ui.es.js",
+  "main": "dist/mose-ui.umd.js",
+  "module": "dist/mose-ui.es.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "vite build && vue-tsc",
     "dev": "vite",
@@ -21,6 +23,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^6.0.3",
+    "sass": "^1.97.2",
     "typescript": "^5.9.3",
     "vite": "^7.3.0",
     "vue-tsc": "^3.2.1"

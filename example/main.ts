@@ -3,7 +3,7 @@ import App from './App.vue'
 
 import ElementPlus from 'element-plus'
 import 'element-plus/dist/index.css'
-import { install as MoseUI } from '../src'
+import { install as MoseUI } from '../packages/index'
 
 createApp(App)
   .use(ElementPlus)

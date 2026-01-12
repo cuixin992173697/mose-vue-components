@@ -1,5 +1,6 @@
 import type { App } from 'vue'
 import { XButton } from '../packages/components'
+import '../styles/index.scss'
 
 const components = [XButton]
 
@@ -10,4 +11,3 @@ const install = (app: App) => {
 }
 
 export { XButton, install }
-

@@ -11,9 +11,9 @@ export default defineConfig(({ command }) => {
     build: isBuild
       ? {
           lib: {
-            entry: path.resolve(__dirname, 'src/index.ts'),
-            name: 'MyUI',
-            fileName: (format) => `my-ui.${format}.js`
+            entry: path.resolve(__dirname, 'packages/index.ts'),
+            name: 'MoseUI',
+            fileName: (format) => `mose-ui.${format}.js`
           },
           rollupOptions: {
             external: ['vue', 'element-plus']
