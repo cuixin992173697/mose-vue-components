@@ -1,6 +1,6 @@
 {
   "name": "mose-vue-components",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "dist/mose-ui.umd.js",
   "module": "dist/mose-ui.es.js",
@@ -19,6 +19,7 @@
   "packageManager": "pnpm@10.24.0",
   "dependencies": {
     "element-plus": "^2.13.0",
+    "mose-vue-components": "^1.0.0",
     "vue": "^3.5.26"
   },
   "devDependencies": {
