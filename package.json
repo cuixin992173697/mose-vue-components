@@ -13,8 +13,7 @@
     "build": "rollup -c",
     "publish:all": "pnpm -r publish --access public",
     "build:types": "rollup -c rollup.config.ts --configPlugin dts",
-    "release": "pnpm -r publish --access public",
-    "dev": "vite",
+    "dev": "pnpm --filter example run dev",
     "test": "vitest"
   },
   "keywords": [],
@@ -23,15 +22,13 @@
   "packageManager": "pnpm@10.24.0",
   "dependencies": {
     "@types/node": "^25.0.9",
-    "element-plus": "^2.13.0",
-    "mose-vue-components": "^1.0.1"
+    "element-plus": "^2.13.0"
   },
   "devDependencies": {
     "@rollup/plugin-alias": "^6.0.0",
     "@rollup/plugin-commonjs": "^29.0.0",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^16.0.3",
-    "@vitejs/plugin-vue": "^6.0.3",
     "@vue/compiler-sfc": "^3.5.27",
     "autoprefixer": "^10.4.23",
     "fast-glob": "^3.3.3",
@@ -44,9 +41,7 @@
     "rollup-plugin-typescript2": "^0.36.0",
     "rollup-plugin-vue": "^6.0.0",
     "sass": "^1.97.2",
-    "tslib": "^2.8.1",
     "typescript": "^5.9.3",
-    "vite": "^7.3.0",
     "vitest": "^4.0.17",
     "vue": "^3.5.26",
     "vue-tsc": "^3.2.1"

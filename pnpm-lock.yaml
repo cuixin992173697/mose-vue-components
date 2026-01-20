@@ -14,9 +14,6 @@ importers:
       element-plus:
         specifier: ^2.13.0
         version: 2.13.0(vue@3.5.26(typescript@5.9.3))
-      mose-vue-components:
-        specifier: ^1.0.1
-        version: 1.0.1(typescript@5.9.3)
     devDependencies:
       '@rollup/plugin-alias':
         specifier: ^6.0.0
@@ -30,9 +27,6 @@ importers:
       '@rollup/plugin-node-resolve':
         specifier: ^16.0.3
         version: 16.0.3(rollup@4.55.1)
-      '@vitejs/plugin-vue':
-        specifier: ^6.0.3
-        version: 6.0.3(vite@7.3.0(@types/node@25.0.9)(sass@1.97.2))(vue@3.5.26(typescript@5.9.3))
       '@vue/compiler-sfc':
         specifier: ^3.5.27
         version: 3.5.27
@@ -69,15 +63,9 @@ importers:
       sass:
         specifier: ^1.97.2
         version: 1.97.2
-      tslib:
-        specifier: ^2.8.1
-        version: 2.8.1
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
-      vite:
-        specifier: ^7.3.0
-        version: 7.3.0(@types/node@25.0.9)(sass@1.97.2)
       vitest:
         specifier: ^4.0.17
         version: 4.0.17(@types/node@25.0.9)(sass@1.97.2)
@@ -87,6 +75,25 @@ importers:
       vue-tsc:
         specifier: ^3.2.1
         version: 3.2.1(typescript@5.9.3)
+
+  example:
+    dependencies:
+      element-plus:
+        specifier: ^2.13.0
+        version: 2.13.0(vue@3.5.26(typescript@5.9.3))
+      vue:
+        specifier: ^3.5.26
+        version: 3.5.26(typescript@5.9.3)
+    devDependencies:
+      '@vitejs/plugin-vue':
+        specifier: ^6.0.3
+        version: 6.0.3(vite@7.3.0(@types/node@25.0.9)(sass@1.97.2))(vue@3.5.26(typescript@5.9.3))
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
+      vite:
+        specifier: ^7.3.0
+        version: 7.3.0(@types/node@25.0.9)(sass@1.97.2)
 
   packages/components:
     dependencies:
@@ -1113,9 +1120,6 @@ packages:
   micromatch@4.0.8:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==}
     engines: {node: '>=8.6'}
-
-  mose-vue-components@1.0.1:
-    resolution: {integrity: sha512-g6WE0NY7wObrbS2X67pT6C2gCOPJvKk7HK+xQNfgw/VWJXp/ixs086sV1GAKLe6ffY9CZKuDNksc6a9P6JEpRg==}
 
   ms@2.1.3:
     resolution: {integrity: sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==}
@@ -2646,14 +2650,6 @@ snapshots:
     dependencies:
       braces: 3.0.3
       picomatch: 2.3.1
-
-  mose-vue-components@1.0.1(typescript@5.9.3):
-    dependencies:
-      element-plus: 2.13.0(vue@3.5.26(typescript@5.9.3))
-      vue: 3.5.26(typescript@5.9.3)
-    transitivePeerDependencies:
-      - '@vue/composition-api'
-      - typescript
 
   ms@2.1.3: {}
 
