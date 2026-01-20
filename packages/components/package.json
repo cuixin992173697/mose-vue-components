@@ -1,0 +1,20 @@
+{
+  "name": "@mose/components",
+  "version": "0.1.0",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "sideEffects": [
+    "*.scss",
+    "*.css"
+  ],
+  "peerDependencies": {
+    "vue": "^3.5.26",
+    "element-plus": "^2.13.0"
+  },
+  "dependencies": {
+    "@mose/utils": "workspace:*",
+    "@mose/styles": "workspace:*"
+  }
+}

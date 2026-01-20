@@ -7,13 +7,12 @@
 </template>
 
 <script setup lang="ts">
+// import { subtract } from '@mose-vue-components/utils'
+// console.log('subtract', subtract(10, 4))
 defineOptions({
   name: 'XButton'
 })
 </script>
 
 <style scoped>
-/* .button-wrapper {
-  background-color: red;
-} */
 </style>
