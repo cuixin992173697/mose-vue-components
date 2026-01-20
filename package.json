@@ -13,7 +13,10 @@
     "build": "rollup -c",
     "build:types": "rollup -c rollup.config.ts --configPlugin dts",
     "dev": "pnpm --filter example run dev",
-    "test": "vitest"
+    "test": "vitest",
+    "publish:components": "pnpm --filter \"@xin.cui/components\" publish --no-git-checks",
+    "publish:utils": "pnpm --filter \"@xin.cui/utils\" publish --no-git-checks",
+    "publish:styles": "pnpm --filter \"@xin.cui/styles\" publish --no-git-checks"
   },
   "keywords": [],
   "author": "",
