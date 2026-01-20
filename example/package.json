@@ -12,6 +12,8 @@
   "license": "ISC",
   "packageManager": "pnpm@10.24.0",
   "dependencies": {
+    "@xin.cui/components": "^0.1.4",
+    "@xin.cui/styles": "^0.1.4",
     "element-plus": "^2.13.0",
     "vue": "^3.5.26"
   },

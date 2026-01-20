@@ -6,5 +6,6 @@
 </template>
 
 <script setup>
-import { XButton } from '@mose/components/index'
+// import { XButton } from '@mose/components/index'
+import { XButton } from '@xin.cui/components'
 </script>
