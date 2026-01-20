@@ -1,6 +1,6 @@
 {
   "name": "@xin.cui/components",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -14,8 +14,8 @@
     "element-plus": "^2.13.0"
   },
   "dependencies": {
-    "@mose/utils": "workspace:*",
-    "@mose/styles": "workspace:*"
+    "@xin.cui/utils": "workspace:*",
+    "@xin.cui/styles": "workspace:*"
   },
   "publishConfig": {
     "access": "public"
