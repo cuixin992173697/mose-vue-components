@@ -1,6 +1,6 @@
 {
   "name": "mose-vue-components",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "",
   "type": "module",
   "main": "dist/mose-ui.umd.js",
@@ -11,7 +11,6 @@
   ],
   "scripts": {
     "build": "rollup -c",
-    "publish:all": "pnpm -r publish --access public",
     "build:types": "rollup -c rollup.config.ts --configPlugin dts",
     "dev": "pnpm --filter example run dev",
     "test": "vitest"
