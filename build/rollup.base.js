@@ -6,7 +6,7 @@ import resolve from '@rollup/plugin-node-resolve'
 import commonjs from '@rollup/plugin-commonjs'
 import path from 'path'
 
-export function createBasePlugins(pkgDir) {
+export function createBasePlugins() {
   return [
     peerDepsExternal(),
     resolve({

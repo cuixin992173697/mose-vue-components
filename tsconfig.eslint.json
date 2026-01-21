@@ -1,0 +1,21 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*",
+    "build/**/*",
+    "example/**/*",
+    "packages/**/*",
+    "prettier.config.ts",
+    "rollup.config.js",
+    "shims-vue.d.ts",
+    "**/*.js"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

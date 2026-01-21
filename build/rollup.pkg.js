@@ -39,15 +39,13 @@ export function buildPackage(pkgDir, inputFile = 'index.ts', isStyle = false) {
     input: path.resolve(pkgDir, inputFile),
     output,
     plugins: [
-      // ✅ 每次构建前，删除当前子包的 dist
+      //  每次构建前，删除当前子包的 dist
       del({
         targets: path.resolve(pkgDir, 'dist/*'),
         hook: 'buildStart'
       }),
-
-      // 原有插件
-      ...createBasePlugins(pkgDir, isStyle)
+      ...createBasePlugins()
     ],
-    external: ['vue'] // 将 vue 标记为外部依赖
+    external: ['vue'] 
   }
 }
