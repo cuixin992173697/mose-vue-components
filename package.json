@@ -17,7 +17,14 @@
     "publish:components": "pnpm --filter \"@xin.cui/components\" publish --no-git-checks",
     "publish:utils": "pnpm --filter \"@xin.cui/utils\" publish --no-git-checks",
     "publish:styles": "pnpm --filter \"@xin.cui/styles\" publish --no-git-checks",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix"
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx --fix",
+    "format": "prettier --write ."
+  },
+  "lint-staged": {
+    "*.{js,ts,vue,jsx,tsx}": [
+      "eslint --fix",
+      "prettier --write"
+    ]
   },
   "keywords": [],
   "author": "",
@@ -42,6 +49,8 @@
     "eslint-plugin-vue": "^10.7.0",
     "fast-glob": "^3.3.3",
     "globals": "^17.0.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
     "postcss": "^8.5.6",
     "prettier": "^3.8.0",
     "rollup": "^4.55.1",
